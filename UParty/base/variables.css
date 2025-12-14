@@ -1,0 +1,76 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url("../assets/fonts/Montserrat-Bold.woff2") format("woff2"), url("../assets/fonts/Montserrat-Bold.woff") format("woff");
+  src: url("../assets/fonts/Montserrat-Bold.eot");
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("../assets/fonts/Montserrat-Medium.woff2") format("woff2"), url("../assets/fonts/Montserrat-Medium.woff") format("woff");
+  src: url("../assets/fonts/Montserrat-Medium.eot");
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Lato";
+  src: url("../assets/fonts/Lato-Medium.woff2") format("woff2"), url("../assets/fonts/Lato-Medium.woff") format("woff");
+  src: url("../assets/fonts/Lato-Medium.eot");
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+}
+
+:root {
+  --text-color: #1E1E1E;
+  --text-tag-color: #787878;
+  --yellow-defolt-color: #F7D454;
+  --yellow-hover-color: #E7C547;
+  --yellow-active-color: #DEBB38;
+  --pink-defolt-color: #FC2A75;
+  --pink-hover-color: #EC296F;
+  --pink-active-color: #D92163;
+  --purle-defolt-color: #9347E3;
+}
+:root {
+  --prymary: "Montserrat", sans-serif;
+  --secondary: "Lato", sans-serif;
+}
+
+:root { 
+  --size: calc(1vh + 1vw) 
+}
+
+body{
+	background-color: var(--f8f8fa);
+	font: 700 1rem var(--prymary);
+	color: var(--1e1e1e);
+}
+
+h1, h2, h3, h4, p{overflow-wrap: break-word;}
+
+h1{
+  font: 700 calc(var(--size)*2) var(--prymary);
+}
+
+h2{
+	font: 700 calc(var(--size)*1.7) var(--prymary);
+}
+
+h3{
+	font: 500 calc(var(--size)*1.5) var(--prymary);
+}
+
+h4{
+	font: 500 calc(var(--size)*1.3) var(--prymary);
+}
+
+p, a{
+	font: 500 calc(var(--size)*0.9) var(--secondary);
+}
+
+button{
+  font: 500 calc(var(--size)*0.9) var(--secondary);
+}
